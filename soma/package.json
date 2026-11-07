@@ -1,0 +1,13 @@
+{
+  "name": "soma-finance",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Soma — finanças pessoais simples, preparadas para WhatsApp.",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "dev": "node --experimental-sqlite --watch server/index.js",
+    "start": "node --experimental-sqlite server/index.js",
+    "test": "node --experimental-sqlite --test tests/*.test.js"
+  }
+}
